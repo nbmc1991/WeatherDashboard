@@ -1,0 +1,17 @@
+#history {
+    background-color: aquamarine
+};
+
+.col {
+    border-color: blueviolet;
+    border-radius: 50px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: pink;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+
