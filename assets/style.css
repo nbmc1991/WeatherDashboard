@@ -1,17 +1,43 @@
-#history {
-    background-color: aquamarine
-};
-
-.col {
-    border-color: blueviolet;
-    border-radius: 50px;
+#history-div{
+  width: ;
 }
 
-.jumbotron {
-    text-align: center;
-    background-color: pink;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
+ 
+ .searchBtn{
+  background-color:pink;
+  color:black;
+  height: 30px;
+  width: 45px;
+ }
+ .searchBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
 
+
+ #search-div {
+   position: absolute;
+   background-color:rgb(229, 248, 247);
+   margin: 20px;
+  padding: 60px;
+ }
+
+ .col {
+  white-space: pre-wrap;
+  height: 45px;
+  grid-column: auto;
+  width: 20%;
+ border-color: rgb(43, 44, 42);
+ border-style: solid black;
+ }
+
+ .search-city{
+   font-weight: bold;
+ }
+
+ 
+
+
+
+
+  

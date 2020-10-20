@@ -24,21 +24,21 @@
 <body>
   <!-- add a jumbotrom for the header -->
 
-  <div class="maincontainer"></div>
-  <div class="jumbotron ">
+  <div class="jumbotron " style="background-color: black; color: white; height: 20px;">
     <div class="container">
-      <h1 class="display-5">Weather Dashboard</h1>
+      <h1 class="display-8" style="text-align:center;">Weather Dashboard</h1>
     </div>
   </div>
 
 
   <!-- make div for search and city columms -->
-  <div class="container searches col-md-3">
-    <div class="search" style="font-weight: bold;">
-      <p>Search for a City:<button style="width: 45px; height: 30px;"></button></p>
+  <div class="col-md-3" id="search-div">
+    <div class="search-city" >
+      <p>Search for a City:</p>
     </div>
-    <div class="container" id="history">
-      <div class="row-col-md-1">
+    <div><input></input><button class="searchBtn"><i class="fas fa-search"></i></button></div>
+    <div  id="history-div" >
+      <div class="row-col-md-2" >
         <div class="col" id="1">Search1</div>
         <div class="col" id="2">Search2</div>
         <div class="col" id="3">Search3</div>
@@ -49,11 +49,11 @@
   </div>
 
   <!-- right align make div to hold temp,humidity,wind index, and uv index results -->
-  <div class=" container result">
-    <div class="col">Temp:</div>
-    <div class="col">Humidity:</div>
-    <div class="col">Wind Speed:</div>
-    <div class="col">UV index:</div>
+  <div class="row-col-md-8" id="result-div">
+    <div class="row">Temp:</div>
+    <div class="row">Humidity:</div>
+    <div class="row">Wind Speed:</div>
+    <div class="row">UV index:</div>
 
   </div>
 
