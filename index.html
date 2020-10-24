@@ -22,47 +22,54 @@
 </head>
 
 <body>
-  <!-- add a jumbotrom for the header -->
+ 
 
-  <div class="jumbotron " style="background-color: black; color: white; height: 20px;">
-    <div class="container">
-      <h1 class="display-8" style="text-align:center;">Weather Dashboard</h1>
-    </div>
-  </div>
+  <header class="container-fluid text-center">`
+    <h1 class="display" style="text-align:center;">Weather Dashboard</h1>
+    <div class="container-fluid form-inline"></div>
+  </header>
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-lg-3">
+        <h4>Search for a city:</h4>
+        <div class="form-inline form-group">
+          <input type="text" id="search-value" />
+          <button class="btn" id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <ul class="list-group search-history"></ul>
+      </aside>
+      <div class="container-fluid" id="results">
+        <img class="icon">
+        <div class="temp"></div>
+        <div  class="humidity" id="humidity"></div>
+        <div class="wind-index"></div>
+        <div id="forecast"></div>
 
-
-  <!-- make div for search and city columms -->
-  <div class="col-md-3" id="search-div">
-    <div class="search-city" >
-      <p>Search for a City:</p>
-    </div>
-    <div><input></input><button class="searchBtn"><i class="fas fa-search"></i></button></div>
-    <div  id="history-div" >
-      <div class="row-col-md-2" >
-        <div class="col" id="1">Search1</div>
-        <div class="col" id="2">Search2</div>
-        <div class="col" id="3">Search3</div>
-        <div class="col" id="4">Search4</div>
-        <div class="col" id="5">Search5</div>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="footer">
+      <p>Footer</p>
+    </div>
+  
+  <!-- <footer id="time">
 
-  <!-- right align make div to hold temp,humidity,wind index, and uv index results -->
-  <div class="row-col-md-8" id="result-div">
-    <div class="row">Temp:</div>
-    <div class="row">Humidity:</div>
-    <div class="row">Wind Speed:</div>
-    <div class="row">UV index:</div>
+  </footer> -->
 
-  </div>
+  
 
-  <!-- make 5 div to hold images with future weather results -->
+
+
+
+
+
+
+ 
 
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-
+  <script src="assets/index.js"></script>
 
 
 </body>

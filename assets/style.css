@@ -1,25 +1,37 @@
-#history-div{
-  width: ;
+#search-head {
+  position: relative;
+  width: 250px;
+  padding-left: px;
 }
 
- 
- .searchBtn{
-  background-color:pink;
+h1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+ #searchBtn{
+  background-color: lightblue;
   color:black;
   height: 30px;
   width: 45px;
  }
- .searchBtn i:hover {
+ #searchBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
 
 
- #search-div {
+ .search-div {
    position: absolute;
-   background-color:rgb(229, 248, 247);
+   background-color:#cccccc;
    margin: 20px;
-  padding: 60px;
+  padding: auto ;
+  width: 16%;
+  height: auto;
+  margin-top: 20px;
+   margin-left: auto;
+   
  }
 
  .col {
@@ -34,6 +46,50 @@
  .search-city{
    font-weight: bold;
  }
+
+ #results{
+  height: 400px;
+  width: 60%;
+  background-color: rgb(204, 229, 231);
+  position:absolute;
+  text-align: center;
+  border-radius: 40px;
+  margin-top: 30px;
+   left: 50%;
+   margin-left: -400px;
+  
+ }
+
+ .weather-container {
+   background-color: #cccccc;
+   text-align: center;
+   width: 60%;
+   
+   margin-left: 700px;
+   font-size: 80px;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  
+  }
+
+  #time {
+    position: sticky;
+  }
+  .footer {
+  
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(116, 222, 230);
+      color: white;
+      text-align: center;
+      padding: 1%;
+  }
+
+
+
+ 
 
  
 
