@@ -1,5 +1,11 @@
 $(document).ready(function () {
 
+
+    var appid = "bb5b2f13428854e8a798d889841af0fc";
+    var searchValue = $("#search-value");
+    var searchBtn = $("seachBtn");
+    
+
     $("#searchBtn").on("click", function () {
         var searchValue = $("#search-value").val();
     //searchvalue variable is saving the city the user input
@@ -28,7 +34,8 @@ $(document).ready(function () {
             // console.log(humedo);
             var icon = "https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
             var speed = $("#wind-index").text(response.wind.speed);
-        
+           
+
            $(".wind-index").html(speed);
 
              // adding icon to html
