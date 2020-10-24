@@ -4,6 +4,10 @@ $(document).ready(function () {
     var appid = "bb5b2f13428854e8a798d889841af0fc";
     var searchValue = $("#search-value");
     var searchBtn = $("seachBtn");
+    var forecast = $("#forecast");
+
+   
+   
     
 
     $("#searchBtn").on("click", function () {
